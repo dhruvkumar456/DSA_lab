@@ -1,21 +1,15 @@
 // 						INFIX TO POSTFIX
 //ROLL-NO->IIIT18153
-#include<stdio.h>
-#include<stdlib.h>
-#include<conio.h>
-#include<ctype.h>
-
+#include<bits/stdc++.h>
+using namespace std;
 char stack[50];
 int top=-1;
 
 int isEmpty()
-{
-	return(top==-1);
-}
+return(top==-1);
+
 void push(char item)
-{
-	    stack[++top]=item;
-}
+stack[++top]=item;
 
 char pop()
 {
@@ -29,9 +23,7 @@ char pop()
 }
 
 char peek()
-{
-    return(stack[top]);
-}
+return(stack[top]);
 
 int prec(char ch)
 {
@@ -51,9 +43,7 @@ int prec(char ch)
     return -1;
 }
 int isOperand(char ch)
-{
-    return (ch>='a' && ch<='z' ) || (ch>='A' && ch<='Z');
-}
+return (ch>='a' && ch<='z' ) || (ch>='A' && ch<='Z');
 
 void infix_to_postfix(char exp[])
 {
@@ -74,7 +64,6 @@ void infix_to_postfix(char exp[])
                 return -1;
             else
                 pop();
-
         }
         else
         {
@@ -90,7 +79,8 @@ void infix_to_postfix(char exp[])
     exp[++k]='\0';
     printf("%s",exp);
 }
-			/*********MAIN BODY****************/
+
+
 int main()
 {   system("cls");
     char exp[30];
