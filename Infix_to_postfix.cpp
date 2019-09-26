@@ -1,6 +1,5 @@
+// 						INFIX TO POSTFIX
 //ROLL-NO->IIIT18153
-/**************************************** INFIX TO POSTFIX **********************************************/
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
