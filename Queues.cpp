@@ -1,4 +1,4 @@
-//                                            QUEUES(INSERTION,DELETION)
+//                                            QUEUES(INSERTION,DELETION).CPP
 //ROLL-NO->IIIT18153
 #include<bits/stdc++.h>
 using namespace std;
