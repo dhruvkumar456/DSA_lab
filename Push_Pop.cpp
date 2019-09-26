@@ -1,4 +1,4 @@
-//  PUSH AND POP IN STACK
+//                                              PUSH AND POP IN STACK
 //ROLL-NO->IIIT18153
 #include<bits/stdc++.h>
 using namespace std;
