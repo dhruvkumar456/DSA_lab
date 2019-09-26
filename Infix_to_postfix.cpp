@@ -1,4 +1,4 @@
-// 						INFIX TO POSTFIX
+// 						INFIX_TO_POSTFIX
 //ROLL-NO->IIIT18153
 #include<bits/stdc++.h>
 using namespace std;
