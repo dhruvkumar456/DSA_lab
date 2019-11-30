@@ -64,6 +64,7 @@ int main()
 	int n;
 	cin>>n;
 	struct node* rootnode=NULL;
+    cout<<"Enter the numbers:\n";
 	for(int i=0;i<n;i++)
 	{
 		int x;
@@ -79,3 +80,4 @@ int main()
 	cout<<"\n";
 	return 0;
 }
+
